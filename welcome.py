@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit .components .v1 as components #line:7
 from PIL import Image
-img = Image.open('images/fav.png')
+img = Image.open('fav.png')
 # Import Selenium Packges
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
@@ -198,7 +198,7 @@ st.markdown("""
 ############### start st.sidebar ######################
 
 
-image = Image.open('images/logo.png')
+image = Image.open('logo.png')
 
 with st.sidebar:
     
